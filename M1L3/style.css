@@ -16,3 +16,21 @@ h2 {
     font-size: 15px; /* Başlık yazı tipi boyutu */
     font-family: Lobster, serif; /* Başlıkta kullanılan yazı tipi ailesi */
 }
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
